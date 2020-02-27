@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    image: mdsdbc/tomcat-8
+    ports:
+      - "4041:4041"
+    volumes:
+      - ./ssl:/opt/tomcat/ssl
+      - ./server.xml:/opt/tomcat/conf/server.xml
