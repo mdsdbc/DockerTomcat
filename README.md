@@ -1,7 +1,6 @@
 ====DockerTomcat====
 
 #Docker Image built from centos7 with apache tomcat running
-#Changed HTTP server port(8080) to 4041, later changed 8443 instead, exposes only port 4041
 
 docker build -t mdsdbc/tomcat-8 .
 
